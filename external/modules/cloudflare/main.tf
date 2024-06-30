@@ -1,5 +1,5 @@
 data "cloudflare_zone" "zone" {
-  name = "swarm-01.beacoworks.xyz"
+  name = "beacoworks.xyz"
 }
 
 data "cloudflare_api_token_permission_groups" "all" {}
